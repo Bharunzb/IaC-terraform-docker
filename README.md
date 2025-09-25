@@ -11,11 +11,13 @@ Provision a local Docker container using Terraform on an Amazon Linux EC2 instan
 
 ## Steps Performed
 1. Launched an Amazon Linux 2 EC2 instance.
-2. Installed Docker and started the Docker service.
-3. Installed Terraform CLI.
-4. Created `main.tf` to define the Docker image and container.
-5. Initialized Terraform: `terraform init`.
-6.  <img width="1917" height="1072" alt="Screenshot 2025-09-25 130845" src="https://github.com/user-attachments/assets/ea2424c3-3efa-4226-8d1c-0248792e91d1" />
+2. <img width="1917" height="1075" alt="Screenshot 2025-09-25 132903" src="https://github.com/user-attachments/assets/eaa0a65f-d599-4436-ab6c-866da9b46c23" />
+
+3. Installed Docker and started the Docker service.
+4. Installed Terraform CLI.
+5. Created `main.tf` to define the Docker image and container.
+6. Initialized Terraform: `terraform init`.
+7.  <img width="1917" height="1072" alt="Screenshot 2025-09-25 130845" src="https://github.com/user-attachments/assets/ea2424c3-3efa-4226-8d1c-0248792e91d1" />
 
 6.Planned the infrastructure: `terraform plan`.
 7.  <img width="1919" height="1077" alt="Screenshot 2025-09-25 130954" src="https://github.com/user-attachments/assets/09213272-9754-4130-a6f5-b470064a57a8" />
@@ -23,7 +25,6 @@ Provision a local Docker container using Terraform on an Amazon Linux EC2 instan
  
 9. Applied the plan: `terraform apply`.
 10. <img width="1908" height="1079" alt="Screenshot 2025-09-25 131037" src="https://github.com/user-attachments/assets/4b4e1ece-e86b-42d9-a2e1-7b2ff24bc2c8" />
-11.<img width="1917" height="1069" alt="Screenshot 2025-09-25 131059" src="https://github.com/user-attachments/assets/99412143-31ac-4b31-9773-096e17f71b2f" />
  12. Verified container: `docker ps` and accessed `http://<EC2_PUBLIC_IP>:8000`.
  13. <img width="1623" height="303" alt="Screenshot 2025-09-25 133638" src="https://github.com/user-attachments/assets/bdc6e1f2-3e3c-4871-aac5-2cee4ff5ff7f" />
 
