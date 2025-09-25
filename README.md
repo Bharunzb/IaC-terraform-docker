@@ -34,7 +34,7 @@ Check terraform state command
 <img width="1919" height="460" alt="Screenshot 2025-09-25 131151" src="https://github.com/user-attachments/assets/0b2954bd-3682-47f7-90e7-5f854977ad08" />
 
 14. Destroyed infrastructure after testing: `terraform destroy`.
-<img width="1917" height="1075" alt="image" src="https://github.com/user-attachments/assets/a1891696-ae04-457e-8fe8-61051046cf72" />
+<img width="1919" height="1079" alt="Screenshot 2025-09-25 132034" src="https://github.com/user-attachments/assets/5c45679f-0edd-47e6-a00e-846729e7bdb0" />
 
 ## Directory Structure
 .
